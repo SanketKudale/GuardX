@@ -1,0 +1,31 @@
+name: guardx
+description: "GuardX is an MVP Flutter crash logging plugin that captures errors and stores local JSON-line events."
+version: 0.0.1
+homepage: https://github.com/guardx/guardx
+repository: https://github.com/guardx/guardx
+issue_tracker: https://github.com/guardx/guardx/issues
+topics:
+  - crash-reporting
+  - error-monitoring
+  - logging
+  - diagnostics
+
+environment:
+  sdk: ">=3.11.0 <4.0.0"
+  flutter: ">=3.41.2"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+flutter:
+  uses-material-design: false
